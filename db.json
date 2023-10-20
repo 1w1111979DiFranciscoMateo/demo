@@ -1,14 +1,11 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "existencias": [
+    {"id": 1, "nombre": "Tornillos Phillips", "stock_minimo": 50},
+    {"id": 2, "nombre": "Destornillador Phillips", "stock_minimo": 20},
+    {"id": 3, "nombre": "Liga Roger", "stock_minimo": 15},
+    {"id": 4, "nombre": "Aceite Santoro", "stock_minimo": 25},
+    {"id": 5, "nombre": "Tornillos ABC", "stock_minimo": 50},
+    {"id": 6, "nombre": "Tuercas Phillips", "stock_minimo": 50},
+    {"id": 7, "nombre": "Arandelas Phillips", "stock_minimo": 50}
+  ]
 }
