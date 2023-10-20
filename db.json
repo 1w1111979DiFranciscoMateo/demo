@@ -1,5 +1,5 @@
 {
-  "existencia": [
+  "existencias": [
     {"id": 1, "nombre": "Tornillos Phillips", "stock_minimo": 50},
     {"id": 2, "nombre": "Destornillador Phillips", "stock_minimo": 20},
     {"id": 3, "nombre": "Liga Roger", "stock_minimo": 15},
@@ -7,5 +7,14 @@
     {"id": 5, "nombre": "Tornillos ABC", "stock_minimo": 50},
     {"id": 6, "nombre": "Tuercas Phillips", "stock_minimo": 50},
     {"id": 7, "nombre": "Arandelas Phillips", "stock_minimo": 50}
+  ],
+  "articulos":[
+    {"id": 1, "nombre": "producto1", "fecha_vencimiento": "20/12/2023", "descripcion": "asd1"},
+    {"id": 2, "nombre": "producto2", "fecha_vencimiento": "20/12/2023", "descripcion": "asd2"},
+    {"id": 3, "nombre": "producto3", "fecha_vencimiento": "20/12/2023", "descripcion": "asd3"},
+    {"id": 4, "nombre": "producto4", "fecha_vencimiento": "20/12/2023", "descripcion": "asd4"},
+    {"id": 5, "nombre": "producto5", "fecha_vencimiento": "20/12/2023", "descripcion": "asd5"},
+    {"id": 6, "nombre": "producto6", "fecha_vencimiento": "20/12/2023", "descripcion": "asd6"},
+    {"id": 7, "nombre": "producto7", "fecha_vencimiento": "20/12/2023", "descripcion": "asd7"}
   ]
 }
