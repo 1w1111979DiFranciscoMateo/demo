@@ -16,5 +16,23 @@
     {"id": 5, "nombre": "producto5", "fecha_vencimiento": "20/12/2023", "descripcion": "asd5"},
     {"id": 6, "nombre": "producto6", "fecha_vencimiento": "20/12/2023", "descripcion": "asd6"},
     {"id": 7, "nombre": "producto7", "fecha_vencimiento": "20/12/2023", "descripcion": "asd7"}
+  ],
+  "lotesProntoAExpirar":[
+    {"id": 1, "idProducto": 25, "idSeccion": 1, "estante:":"A", "fechaVencimiento": "28/11/2023", "cantidad": 20},
+    {"id": 2, "idProducto": 26, "idSeccion": 2, "estante:":"B", "fechaVencimiento": "29/11/2023", "cantidad": 21},
+    {"id": 3, "idProducto": 27, "idSeccion": 2, "estante:":"C", "fechaVencimiento": "30/11/2023", "cantidad": 22},
+    {"id": 4, "idProducto": 28, "idSeccion": 1, "estante:":"D", "fechaVencimiento": "01/12/2023", "cantidad": 23}
+  ],
+  "existenciasStockBajo":[
+    {"id": 1, "nombre": "Producto A", "stockMinimo": 25, "stockActual": 5},
+    {"id": 2, "nombre": "Producto B", "stockMinimo": 20, "stockActual": 4},
+    {"id": 3, "nombre": "Producto C", "stockMinimo": 15, "stockActual": 3},
+    {"id": 4, "nombre": "Producto D", "stockMinimo": 10, "stockActual": 2}
+  ],
+  "pedidoReaprovisionamiento": [
+    {"id": 1, "nombre": "Pedido A", "cantidad": 20, "proveedor": "Proveedor A"},
+    {"id": 2, "nombre": "Pedido B", "cantidad": 25, "proveedor": "Proveedor B"},
+    {"id": 3, "nombre": "Pedido C", "cantidad": 30, "proveedor": "Proveedor C"},
+    {"id": 4, "nombre": "Pedido D", "cantidad": 35, "proveedor": "Proveedor D"}
   ]
 }
