@@ -24,10 +24,10 @@
     {"id": 4, "idProducto": 28, "idSeccion": 1, "estante:":"D", "fechaVencimiento": "01/12/2023", "cantidad": 23}
   ],
   "existenciasStockBajo":[
-    {"id": 1, "nombre": "Producto A", "stockMinimo": 25, "stockActual": 5},
-    {"id": 2, "nombre": "Producto B", "stockMinimo": 20, "stockActual": 4},
-    {"id": 3, "nombre": "Producto C", "stockMinimo": 15, "stockActual": 3},
-    {"id": 4, "nombre": "Producto D", "stockMinimo": 10, "stockActual": 2}
+    {"code": "1", "name": "Producto A", "stockMinimo": 25, "stockActual": 5},
+    {"code": "2", "name": "Producto B", "stockMinimo": 20, "stockActual": 4},
+    {"code": "3", "name": "Producto C", "stockMinimo": 15, "stockActual": 3},
+    {"code": "4", "name": "Producto D", "stockMinimo": 10, "stockActual": 2}
   ],
   "pedidoReaprovisionamiento": [
     {"id": 1, "nombre": "Pedido A", "cantidad": 20, "proveedor": "Proveedor A"},
