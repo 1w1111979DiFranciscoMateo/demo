@@ -18,10 +18,10 @@
     {"id": 7, "nombre": "producto7", "fecha_vencimiento": "20/12/2023", "descripcion": "asd7"}
   ],
   "lotesProntoAExpirar":[
-    {"id": 1, "existenceCode": "25", "sectionId": "1", "quantity":20, "dueDate": "28/11/2023", "shelf:":1},
-    {"id": 2, "existenceCode": "30", "sectionId": "2", "quantity":22, "dueDate": "29/11/2023", "shelf:":2},
-    {"id": 3, "existenceCode": "35", "sectionId": "2", "quantity":24, "dueDate": "30/11/2023", "shelf:":3},
-    {"id": 4, "existenceCode": "40", "sectionId": "1", "quantity":26, "dueDate": "01/12/2023", "shelf:":2}
+    {"id": 1, "existenceCode": "25", "sectionId": "1", "quantity":20, "dueDate": "28/11/2023", "shelf": 1},
+    {"id": 2, "existenceCode": "30", "sectionId": "2", "quantity":22, "dueDate": "29/11/2023", "shelf": 2},
+    {"id": 3, "existenceCode": "35", "sectionId": "2", "quantity":24, "dueDate": "30/11/2023", "shelf": 3},
+    {"id": 4, "existenceCode": "40", "sectionId": "1", "quantity":26, "dueDate": "01/12/2023", "shelf": 2}
   ],
   "existenciasStockBajo":[
     {"code": "1", "name": "Producto A", "minimumStock": 25, "stockNow": 5},
